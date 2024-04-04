@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Atún",
+        "precio": "$2900",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_969716-MLU72637186625_112023-O.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Pure de papas",
+        "precio": "$1200",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_828598-MLU73204814732_122023-O.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Queso",
+        "precio": "$3000",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_959225-MLA71572095119_092023-O.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Pollo",
+        "precio": "$4500",
+        "imagen": "https://media.istockphoto.com/id/486855044/es/foto/paquete-de-pollo.jpg?s=612x612&w=0&k=20&c=Hmw-JVM7s666qQyb14QTgc97CUTUHTsa1ivcoCfvunM="
+    },
+    {
+        "id": 5,
+        "nombre": "Carne",
+        "precio": "$6500",
+        "imagen": "https://supercarnes.com/wp-content/uploads/2020/06/7-1.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Pescado",
+        "precio": "$7500",
+        "imagen": "https://img.interempresas.net/fotos/356262.jpeg"
+    },
+    {   
+        "id": 7,
+        "nombre": "Helado",
+        "precio": "$5900",
+        "imagen": "https://carrefourar.vtexassets.com/arquivos/ids/177038-800-450?v=637468575250500000&width=800&height=450&aspect=true"
+    },
+    {
+        "id": 8,
+        "nombre": "Coca Cola",
+        "precio": "$2500",
+        "imagen": "https://trapal.com.ar/media/cache/sylius_shop_product_original/22/9e/06a840a3ae047db7118aba0501d0.webp"
+    }
+]
