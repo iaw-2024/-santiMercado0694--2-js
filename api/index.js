@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const fs = require("fs");
 const datos = require('../product.json');
+const path = require('path');
 
 app.use(cors());
 app.use(express.static('public'));
@@ -17,7 +18,7 @@ app.get("/dom", (req, res) => {
 });
 
 app.get("/cliente_servidor", (req, res) => {
-    res.sendFile("./public/cliente_servidor/listado.html", { root: '.' });
+    res.sendFile(path.join(__dirname, '../public/cliente_servidor/listado.html'));
 });
 
 app.get('/express', (req, res) => {
