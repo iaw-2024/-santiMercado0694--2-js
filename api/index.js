@@ -23,7 +23,7 @@ app.get("/cliente_servidor", (req, res) => {
 });
 
 app.get('/express', (req, res) => {
-    fs.readFile('./product.json', 'utf8', (err, data) => {
+    fs.readFile(path.join(__dirname, '../product.json'), 'utf8', (err, data) => {
         if (err) {
             console.error(err);
             res.status(500).send('Error del servidor al leer los datos');
