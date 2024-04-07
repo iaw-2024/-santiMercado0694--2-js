@@ -56,7 +56,7 @@ app.get('/express', (req, res) => {
 
         res.send(modifiedHTML);
     });
-});
+  });
 });
 
 const PORT = process.env.PORT || 3000;
