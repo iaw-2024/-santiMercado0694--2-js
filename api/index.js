@@ -43,19 +43,20 @@ app.get('/express', (req, res) => {
             `;
         });
 
-        fs.readFile("public/express/listado.html", "utf8", (err, html) => {
+        fs.readFile(path.join(__dirname, '../public/express/listado.html'), 'utf8', (err, html) => {
             if (err) {
-                console.error("Error al leer el archivo index.html:", err);
+                console.error("Error al leer el archivo listado.html:", err);
                 res.status(500).send("Error interno del servidor");
                 return;
             }
 
-        const modifiedHTML = html.replace("<!-- PRODUCTOS -->", productosHTML);
+            const modifiedHTML = html.replace("<!-- PRODUCTOS -->", productosHTML);
 
-        res.send(modifiedHTML);
+            res.send(modifiedHTML);
+        });
     });
 });
-});
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
